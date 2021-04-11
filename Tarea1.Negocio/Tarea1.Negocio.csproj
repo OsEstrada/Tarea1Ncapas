@@ -46,13 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -74,7 +67,14 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <ProjectReference Include="..\Tarea1.Datos\Tarea1.Datos.csproj">
+      <Project>{b242e5ec-bc2a-4ae6-9b07-45512edb343d}</Project>
+      <Name>Tarea1.Datos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tarea1.Entidades\Tarea1.Entidades.csproj">
+      <Project>{b5c127f1-f135-462a-9c68-a5d80e23d7ec}</Project>
+      <Name>Tarea1.Entidades</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
