@@ -1,0 +1,17 @@
+C:\Users\Oscar Alejandro\source\repos\Tarea1\Tarea1.Presentacion\obj\Debug\Tarea1.Presentacion.FrmPersona.resources
+C:\Users\Oscar Alejandro\source\repos\Tarea1\Tarea1.Presentacion\obj\Debug\Tarea1.Presentacion.Properties.Resources.resources
+C:\Users\Oscar Alejandro\source\repos\Tarea1\Tarea1.Presentacion\obj\Debug\Tarea1.Presentacion.csproj.GenerateResource.cache
+C:\Users\Oscar Alejandro\source\repos\Tarea1\Tarea1.Presentacion\obj\Debug\Tarea1.Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\Oscar Alejandro\source\repos\Tarea1\Tarea1.Presentacion\bin\Debug\Tarea1.Presentacion.exe.config
+C:\Users\Oscar Alejandro\source\repos\Tarea1\Tarea1.Presentacion\bin\Debug\Tarea1.Presentacion.exe
+C:\Users\Oscar Alejandro\source\repos\Tarea1\Tarea1.Presentacion\bin\Debug\Tarea1.Presentacion.pdb
+C:\Users\Oscar Alejandro\source\repos\Tarea1\Tarea1.Presentacion\bin\Debug\Tarea1.Negocio.dll
+C:\Users\Oscar Alejandro\source\repos\Tarea1\Tarea1.Presentacion\bin\Debug\Tarea1.Datos.dll
+C:\Users\Oscar Alejandro\source\repos\Tarea1\Tarea1.Presentacion\bin\Debug\Tarea1.Entidades.dll
+C:\Users\Oscar Alejandro\source\repos\Tarea1\Tarea1.Presentacion\bin\Debug\Tarea1.Negocio.pdb
+C:\Users\Oscar Alejandro\source\repos\Tarea1\Tarea1.Presentacion\bin\Debug\Tarea1.Datos.pdb
+C:\Users\Oscar Alejandro\source\repos\Tarea1\Tarea1.Presentacion\bin\Debug\Tarea1.Entidades.pdb
+C:\Users\Oscar Alejandro\source\repos\Tarea1\Tarea1.Presentacion\obj\Debug\Tarea1.Presentacion.csprojAssemblyReference.cache
+C:\Users\Oscar Alejandro\source\repos\Tarea1\Tarea1.Presentacion\obj\Debug\Tarea1.Presentacion.csproj.CopyComplete
+C:\Users\Oscar Alejandro\source\repos\Tarea1\Tarea1.Presentacion\obj\Debug\Tarea1.Presentacion.exe
+C:\Users\Oscar Alejandro\source\repos\Tarea1\Tarea1.Presentacion\obj\Debug\Tarea1.Presentacion.pdb

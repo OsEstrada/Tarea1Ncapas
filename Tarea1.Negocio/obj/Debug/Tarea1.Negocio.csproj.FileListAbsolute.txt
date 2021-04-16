@@ -1,0 +1,11 @@
+C:\Users\Oscar Alejandro\source\repos\Tarea1\Tarea1.Negocio\bin\Debug\Tarea1.Negocio.dll
+C:\Users\Oscar Alejandro\source\repos\Tarea1\Tarea1.Negocio\bin\Debug\Tarea1.Negocio.pdb
+C:\Users\Oscar Alejandro\source\repos\Tarea1\Tarea1.Negocio\bin\Debug\Tarea1.Datos.dll
+C:\Users\Oscar Alejandro\source\repos\Tarea1\Tarea1.Negocio\bin\Debug\Tarea1.Entidades.dll
+C:\Users\Oscar Alejandro\source\repos\Tarea1\Tarea1.Negocio\bin\Debug\Tarea1.Datos.pdb
+C:\Users\Oscar Alejandro\source\repos\Tarea1\Tarea1.Negocio\bin\Debug\Tarea1.Entidades.pdb
+C:\Users\Oscar Alejandro\source\repos\Tarea1\Tarea1.Negocio\obj\Debug\Tarea1.Negocio.csprojAssemblyReference.cache
+C:\Users\Oscar Alejandro\source\repos\Tarea1\Tarea1.Negocio\obj\Debug\Tarea1.Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Oscar Alejandro\source\repos\Tarea1\Tarea1.Negocio\obj\Debug\Tarea1.Negocio.csproj.CopyComplete
+C:\Users\Oscar Alejandro\source\repos\Tarea1\Tarea1.Negocio\obj\Debug\Tarea1.Negocio.dll
+C:\Users\Oscar Alejandro\source\repos\Tarea1\Tarea1.Negocio\obj\Debug\Tarea1.Negocio.pdb

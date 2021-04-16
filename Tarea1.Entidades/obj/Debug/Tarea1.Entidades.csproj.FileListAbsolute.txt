@@ -1,0 +1,5 @@
+C:\Users\Oscar Alejandro\source\repos\Tarea1\Tarea1.Entidades\bin\Debug\Tarea1.Entidades.dll
+C:\Users\Oscar Alejandro\source\repos\Tarea1\Tarea1.Entidades\bin\Debug\Tarea1.Entidades.pdb
+C:\Users\Oscar Alejandro\source\repos\Tarea1\Tarea1.Entidades\obj\Debug\Tarea1.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Oscar Alejandro\source\repos\Tarea1\Tarea1.Entidades\obj\Debug\Tarea1.Entidades.dll
+C:\Users\Oscar Alejandro\source\repos\Tarea1\Tarea1.Entidades\obj\Debug\Tarea1.Entidades.pdb

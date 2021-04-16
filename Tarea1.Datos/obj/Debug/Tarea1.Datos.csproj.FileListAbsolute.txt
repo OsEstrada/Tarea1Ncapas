@@ -1,0 +1,9 @@
+C:\Users\Oscar Alejandro\source\repos\Tarea1\Tarea1.Datos\bin\Debug\Tarea1.Datos.dll
+C:\Users\Oscar Alejandro\source\repos\Tarea1\Tarea1.Datos\bin\Debug\Tarea1.Datos.pdb
+C:\Users\Oscar Alejandro\source\repos\Tarea1\Tarea1.Datos\bin\Debug\Tarea1.Entidades.dll
+C:\Users\Oscar Alejandro\source\repos\Tarea1\Tarea1.Datos\bin\Debug\Tarea1.Entidades.pdb
+C:\Users\Oscar Alejandro\source\repos\Tarea1\Tarea1.Datos\obj\Debug\Tarea1.Datos.csprojAssemblyReference.cache
+C:\Users\Oscar Alejandro\source\repos\Tarea1\Tarea1.Datos\obj\Debug\Tarea1.Datos.csproj.CoreCompileInputs.cache
+C:\Users\Oscar Alejandro\source\repos\Tarea1\Tarea1.Datos\obj\Debug\Tarea1.Datos.csproj.CopyComplete
+C:\Users\Oscar Alejandro\source\repos\Tarea1\Tarea1.Datos\obj\Debug\Tarea1.Datos.dll
+C:\Users\Oscar Alejandro\source\repos\Tarea1\Tarea1.Datos\obj\Debug\Tarea1.Datos.pdb

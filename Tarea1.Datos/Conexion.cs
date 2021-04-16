@@ -33,7 +33,7 @@ namespace Tarea1.Datos
                 Cadena.ConnectionString = $"Server={this.Servidor}; Database={this.Base}; ";
                 if (this.Seguridad) //windows
                 {
-                    Cadena.ConnectionString += "Intregated Security = SSPI";
+                    Cadena.ConnectionString += "Integrated Security = SSPI";
                 }
                 else //sql
                 {
