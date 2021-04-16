@@ -28,6 +28,14 @@ namespace Tarea1.Presentacion
             MessageBox.Show(mensaje, "Personas", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
+        private void Limpiar()
+        {
+            txtApellido.Clear();
+            txtEdad.Clear();
+            txtNombre.Clear();
+            txtTelefono.Clear();
+        }
+
         private void Listar()
         {
             try
@@ -45,25 +53,27 @@ namespace Tarea1.Presentacion
             try
             {
                 var edad = 0;
-                if (string.IsNullOrEmpty(txtNombre.Text) || string.IsNullOrEmpty(txtApellido.Text) || string.IsNullOrEmpty(txtTelefono.Text))
+                if (string.IsNullOrEmpty(txtNombre.Text) || string.IsNullOrEmpty(txtApellido.Text) || string.IsNullOrEmpty(txtTelefono.Text)) //Verifica si todos los campos excepto edad estan llenos
                 {
                     this.MensajeError("Falta ingresar un dato, por favor revisar");
                 } 
-                if (int.TryParse(txtEdad.Text.Trim(), out edad)){
+                if (int.TryParse(txtEdad.Text.Trim(), out edad)) //Revisa si edad almacena una cadena que puede interpretarse como un numero entero, de ser asi lo almacena en la variable edad
+                {
                     var Rpta = NPersona.Insertar(txtNombre.Text.Trim(), txtApellido.Text.Trim(), txtTelefono.Text.Trim(), edad);
                     if (Rpta.Equals("OK"))
                     {
                         this.MensajeOk("Se inserto el registro correctamente");
                         this.Listar();
+                        this.Limpiar();
                     }
                     else
                     {
                         this.MensajeError(Rpta);
                     }
                 }
-                else
+                else //Si no es un numero entero, entonces se envia un mensaje de error
                 {
-                    this.MensajeError("La edad debe ser un dato númerico, por favor revisar");
+                    this.MensajeError("La edad debe ser un dato númerico, por favor revisar"); 
                 }
             }
             catch (Exception ex)

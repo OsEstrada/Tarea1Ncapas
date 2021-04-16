@@ -35,7 +35,7 @@ namespace Tarea1.Datos
                 {
                     Cadena.ConnectionString += "Integrated Security = SSPI";
                 }
-                else //sql
+                else //SQL
                 {
                     Cadena.ConnectionString += $"User Id={this.Usuario}; Password={this.Clave}";
                 }
@@ -47,6 +47,7 @@ namespace Tarea1.Datos
             return Cadena;
         }
 
+        //Funcion que crea la instancia de conexion
         public static Conexion getInstancia()
         {
             if(Con == null)

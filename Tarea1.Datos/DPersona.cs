@@ -11,6 +11,7 @@ namespace Tarea1.Datos
 {
     public class DPersona
     {
+        //Funcion que extrae los datos de la tabla de Persona en el servidor de SQL
         public DataTable Listar()
         {
             SqlDataReader Resultado;
@@ -20,7 +21,7 @@ namespace Tarea1.Datos
             {
                 SqlCon = Conexion.getInstancia().CrearConexion();
                 SqlCommand Comando = new SqlCommand("ListarPersonas", SqlCon);
-                Comando.CommandType = CommandType.StoredProcedure;
+                Comando.CommandType = CommandType.StoredProcedure;  //Se establece el tipo de comando sql que se ejecutara.
                 SqlCon.Open();
                 Resultado = Comando.ExecuteReader();
                 Tabla.Load(Resultado);
@@ -33,14 +34,14 @@ namespace Tarea1.Datos
             }
             finally
             {
-                if (SqlCon.State == ConnectionState.Open) SqlCon.Close();
+                if (SqlCon.State == ConnectionState.Open) SqlCon.Close(); //Despues de todo el proceso anterior, se cierra la conexion
             }
         }
         public string Insertar(Persona obj)
         {
             string Rpta = "";
             SqlConnection SqlCon = new SqlConnection();
-            try
+            try //Se intentara cargar en la consulta los datos almacenados en el objeto Persona.
             {
                 SqlCon = Conexion.getInstancia().CrearConexion();
                 SqlCommand Comando = new SqlCommand("InsertarPersonas", SqlCon);
