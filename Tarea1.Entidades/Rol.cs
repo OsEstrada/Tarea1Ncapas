@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Tarea1.Entidades
 {
-    public class Rol
+    public class Rol //Clase equivalente a la tabla rol en la base de datos
     {
         public int IdRol { get; set; }
         public string Nombre { get; set; }

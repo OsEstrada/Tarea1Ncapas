@@ -36,6 +36,7 @@ namespace Tarea1.Presentacion
             txtTelefono.Clear();
         }
 
+        //Carga los datos de la base de datos en el datagrid
         private void Listar()
         {
             try
@@ -48,6 +49,7 @@ namespace Tarea1.Presentacion
             }
         }
 
+        //Lee los datos de los textbox y los envia a la capa de Negocio para realizar la insercion en la base de datos
         private void Insertar()
         {
             try

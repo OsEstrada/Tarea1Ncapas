@@ -25,6 +25,7 @@ namespace Tarea1.Datos
             this.Seguridad = true; //True = windonws False = sql Auth
         }
 
+        //Funcion que crea un objeto de tipo Conexion
         public SqlConnection CrearConexion()
         {
             SqlConnection Cadena = new SqlConnection();
@@ -47,7 +48,7 @@ namespace Tarea1.Datos
             return Cadena;
         }
 
-        //Funcion que crea la instancia de conexion
+        //Funcion que devuelve la instancia de la conexion
         public static Conexion getInstancia()
         {
             if(Con == null)

@@ -37,6 +37,7 @@ namespace Tarea1.Datos
                 if (SqlCon.State == ConnectionState.Open) SqlCon.Close(); //Despues de todo el proceso anterior, se cierra la conexion
             }
         }
+        //Funcion que recibe una Persona y la ejecuta el procedimiento almacenado
         public string Insertar(Persona obj)
         {
             string Rpta = "";
@@ -59,7 +60,7 @@ namespace Tarea1.Datos
             }
             finally
             {
-                if (SqlCon.State == ConnectionState.Open) SqlCon.Close();
+                if (SqlCon.State == ConnectionState.Open) SqlCon.Close(); //Se cierra la conexion
             }
             return Rpta;
         }
